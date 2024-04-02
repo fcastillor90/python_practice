@@ -14,3 +14,12 @@ if a == 10:
 else:
     print("No es 10")
 #ejercicio5
+x="El valor de (a+b)*c es:"
+a,b,c =4,3,2
+d=(a+b)*c
+imprimir =  True
+if imprimir:
+    print(x,d)
+#ejercicio6
+
+    
