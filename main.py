@@ -20,6 +20,17 @@ d=(a+b)*c
 imprimir =  True
 if imprimir:
     print(x,d)
-#ejercicio6
+#ejercicio6 (while/for/continue/break)
+x=0
+while x < 4:
+    print(x)
+    if x == 2:
+        break
+    x+1
+    for x in range(4):
+        if x == 1:
+            continue
+        print(x)
+    
 
     
