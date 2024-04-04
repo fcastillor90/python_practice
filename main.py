@@ -34,3 +34,7 @@ a,b,c = 2,3,5
 d=(((b+a)/(a*c))**a)
 print(d)
 #EjercicioALF5
+horas= float(input("ingrese la cantidad de horas Trabajadas: "))
+valor= float(input("Ingrese valor por hora: "))
+total= horas*valor
+print("el valor correspondiente a las horas trabajadas es:  $"+total)
