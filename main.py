@@ -37,4 +37,12 @@ print(d)
 horas= float(input("ingrese la cantidad de horas Trabajadas: "))
 valor= float(input("Ingrese valor por hora: "))
 total= horas*valor
-print("el valor correspondiente a las horas trabajadas es:  $"+total)
+print("el valor correspondiente a las horas trabajadas es:  $"+str(total))
+#ejercicioALF6
+n = int(input("introduce un numero: "))
+suma = n * n ( n + 1 ) / 2
+print("la suma de los primeros numeros enteros desde uno hasta"+ str(n)+" es "+str(suma))
+peso = float(input("Ingrese su peso:  "))
+estatura = float(input("ingrese su estarura: "))
+imc = round(float(peso)/float(estatura)**2,2)
+print("Tu indice de masa corporal es "+ str(imc))
