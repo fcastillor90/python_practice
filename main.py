@@ -20,25 +20,3 @@ d=(a+b)*c
 imprimir =  True
 if imprimir:
     print(x,d)
-
-#ejercicioALF1
-print("Hola Mundo")
-#ejercicioALF2
-mensaje = "Hola Mundo"
-print (mensaje)
-#ejercicioALF3
-nombre = input("tu  nombre: ")
-print("Hola "+nombre)
-#ejercicioALF4
-a,b,c = 2,3,5
-d=(((b+a)/(a*c))**a)
-print(d)
-#EjercicioALF5
-horas= float(input("ingrese la cantidad de horas Trabajadas: "))
-valor= float(input("Ingrese valor por hora: "))
-total= horas*valor
-print("el valor correspondiente a las horas trabajadas es:  $"+str(total))
-#ejercicioALF6
-n = int(input("introduce un numero: "))
-suma = ((n * n)* ( n + 1 ) )/ 2
-print("la suma de los primeros numeros enteros desde uno hasta"+ str(n)+" es "+str(suma))
